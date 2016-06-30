@@ -19,7 +19,6 @@ To make your first aerospike database
 	-v C:\aerospike\data:/opt/aerospike/data \
 	--name aerospike_server -p 3000:3000 -p 3001:3001 -p 3002:3002 -p 3003:3003 \
 	aerospike/aerospike-server`.
-
 - Pull aerospike AMC Web Console 
 	`docker pull sabbir1cse/amc_aerospike_web_console`
 - Run it 
@@ -29,3 +28,5 @@ To make your first aerospike database
 	and then
 	`./entrypoint.sh`
 - Hit your host:1001 and follow instruction 
+- For AQL `docker exec -it aerospike_web_console bash`
+  and follow this link [http://www.aerospike.com/docs/tools/aql](http://www.aerospike.com/docs/tools/aql)
